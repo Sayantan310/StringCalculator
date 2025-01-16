@@ -55,3 +55,4 @@ def test_add_ignore_empty_numbers():
 
 test_add_empty_string()
 test_add_single_number()
+test_add_two_numbers()
