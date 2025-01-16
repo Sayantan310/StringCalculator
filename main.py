@@ -53,6 +53,7 @@ def test_add_negative_numbers():
 def test_add_ignore_empty_numbers():
     assert add("1,,2") == 3
 
+# Running the test cases
 test_add_empty_string()
 test_add_single_number()
 test_add_two_numbers()
@@ -60,3 +61,5 @@ test_add_multiple_numbers()
 test_add_with_newlines()
 test_add_with_custom_delimiter()
 test_add_negative_numbers()
+
+print("TEST CASES RUNNING COMPLETED!!!!!!!!!!!!!")
